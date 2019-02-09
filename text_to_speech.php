@@ -218,5 +218,5 @@ function login($user, $pass){
 	return _read_cookie();
 }
 
-speech($_ENV['MI_USER'], $_ENV['MI_PASSWORD'], "想说啥说啥", "fe399a3b-1ff0-48fc-92f0-373e26910806");
+//speech($_ENV['MI_USER'], $_ENV['MI_PASSWORD'], "想说啥说啥", "fe399a3b-1ff0-48fc-92f0-373e26910806");
 ?>
