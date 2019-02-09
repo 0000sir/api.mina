@@ -1,0 +1,12 @@
+version: '2'
+services:
+  www:
+    image: php:7-apache
+    volumes:
+      - ./:/var/www/html
+    environment:
+      - MI_USER=${MI_USER}
+      - MI_PASSWORD=${MI_PASSWORD}
+      - API_KEY=${YOUR_SECRET_API_KEY}
+    ports:
+      - 80:80
